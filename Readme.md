@@ -1,19 +1,19 @@
 
 # ECO-Wallet.Plugin
 
-##### _The ECO-Wallet.plugin should work in a manner that it would connect all the member/users of the iHunt4 with the users in sub-databases and vice versa._
+##### _The ECO-Wallet.plugin should work in a manner that it would connect all the member/users of the iHunt4 ECO with the users in sub-databases and vice versa._
 ####
 ####
 > Example, 
 > A developer used ECO-Wallet.plugin to create his gaming app called “Hit the Ball”,
-> A user of iHunt4 app downloads “Hit the Ball” app, and went to SignUp/LogIn screen, here the user shouldn’t have to SignUp as new player, he/she should be able to Login using the same credentials as iHunt4 app.
+> A user of iHunt4 ECO app downloads “Hit the Ball” app, and went to SignUp/LogIn screen, here the user shouldn’t have to SignUp as new player, he/she should be able to Login using the same credentials as iHunt4 ECO app.
 <p align="center">
 <img width="750" src="https://user-images.githubusercontent.com/15853904/139066247-78147552-3736-4754-901a-ff7ebe4b56d2.png" alt="iHuntDB logo">
 </p>
-If one would observe above flow, when a new developer signs up for iHunt4 Developer account. A new sub-database is created inside iHunt4 DB. Onwards, developer will be using his API-Key and API-Secret to make a call upon each and every Dynamic API Functions provided as following,
+If one would observe above flow, when a new developer signs up for iHunt4 ECO Developer account. A new sub-database is created inside iHunt4 ECO DB. Onwards, developer will be using his API-Key and API-Secret to make a call upon each and every Dynamic API Functions provided as following,
 
 
-1.	**[signUp_to_ECO-Wallet]**, this API will signUp new user directly into iHunt4 database, as well as in the sub-database of the app developer. In addition, to call this API it requires to pass following values,
+1.	**[signUp_to_ECO-Wallet]**, this API will signUp new user directly into iHunt4 ECO database, as well as in the sub-database of the app developer. In addition, to call this API it requires to pass following values,
 ```yaml
 {
    “name”: “Eric”,
@@ -139,14 +139,14 @@ _____________________________________________________________________
 
 ## Developers Guide For ECO-Wallet Plugin Setup.
 
-1.	A developer will go to www.ihunt4.com/developersPortal/register and signUp for new iHunt4-Developers-Account.
+1.	A developer will go to www.iHunt4 ECO.com/developersPortal/register and signUp for new iHunt4 ECO-Developers-Account.
 
 <p align="center">
 <img width="450" src="https://user-images.githubusercontent.com/15853904/139068050-854c3f95-4702-4d47-a6e5-2ae6e4e7d6d1.png" alt="ECO-WalletP 1 logo">
 </p>
 
 
-2.	Developer will Login to www.ihunt4.com/developersPortal/LogIn 
+2.	Developer will Login to www.iHunt4 ECO.com/developersPortal/LogIn 
 
 <p align="center">
 <img width="450" src="https://user-images.githubusercontent.com/15853904/139068403-060e351b-a16d-498a-9ce6-b99e59f2de8f.png" alt="ECO-WalletP 2 logo">
